@@ -21,11 +21,6 @@
   "keywords": [
     "ldap"
   ],
-  "standard": {
-    "ignore": [
-      "public"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "http://github.com/maccyber/ldap-get-user.git"
