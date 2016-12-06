@@ -9,6 +9,14 @@ const options = {
   bindCredentials: 'password',
   searchBase: 'dc=example,dc=com',
   searchFilter: '(sAMAccountName={{username}})'
+  /* If LDAPS use ldaps in URL and tlsOptions
+  tlsOptions: {
+    rejectUnauthorized: true,
+    ca: [
+      fs.readFileSync(path.join(__dirname, 'filename')
+    ]
+  }
+  */
 }
 
 getLdapUser(options).then((data) => {
@@ -29,6 +37,14 @@ const options = {
   bindCredentials: 'password',
   searchBase: 'dc=example,dc=com',
   searchFilter: '(sAMAccountName={{username}})'
+    /* If LDAPS use ldaps in URL and tlsOptions
+  tlsOptions: {
+    rejectUnauthorized: true,
+    ca: [
+      fs.readFileSync(path.join(__dirname, 'filename')
+    ]
+  }
+  */
 }
 
 getLdapUser(options, (err, data) => {
