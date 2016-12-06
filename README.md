@@ -1,6 +1,7 @@
 # ldap-get-user
 
-## Using promises
+
+## Set options
 ```js
 const options = {
   user: 'riemann', // The user to get
@@ -18,7 +19,9 @@ const options = {
   }
   */
 }
-
+```
+## Using promises
+```js
 getLdapUser(options).then((data) => {
   console.log(data)
   process.exit()
@@ -30,23 +33,6 @@ getLdapUser(options).then((data) => {
 
 ## Using callbacks
 ```js
-const options = {
-  user: 'riemann', // The user to get
-  url: 'ldap://ldap.forumsys.com:389',
-  bindDn: 'cn=read-only-admin,dc=example,dc=com',
-  bindCredentials: 'password',
-  searchBase: 'dc=example,dc=com',
-  searchFilter: '(sAMAccountName={{username}})'
-    /* If LDAPS use ldaps in URL and tlsOptions
-  tlsOptions: {
-    rejectUnauthorized: true,
-    ca: [
-      fs.readFileSync(path.join(__dirname, 'filename')
-    ]
-  }
-  */
-}
-
 getLdapUser(options, (err, data) => {
   if (err) {
     console.log(err)
