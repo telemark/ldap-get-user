@@ -1,0 +1,16 @@
+'use strict'
+
+const config = require('./config')
+const getLdapUser = require('./lib/getLdapUser')
+
+const options = config.ldap
+options.user = 'engj'
+
+getLdapUser(options).then((data) => {
+  console.log(data)
+  process.exit()
+}).catch((err) => {
+  console.error(err)
+  process.exit()
+})
+

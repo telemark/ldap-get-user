@@ -1,0 +1,46 @@
+{
+  "name": "ldap-get-user",
+  "version": "1.0.0",
+  "description": "Get user from LDAP returns object",
+  "license": "MIT",
+  "author": {
+    "name": "Jonas Enge",
+    "email": "jonas.enge@gmai.com",
+    "url": "https://maccyber.io"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.5.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "standard && nsp check && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls"
+  },
+  "keywords": [
+    "ldap"
+  ],
+  "standard": {
+    "ignore": [
+      "public"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/maccyber/ldap-get-user.git"
+  },
+  "bugs": {
+    "url": "http://github.com/maccyber/ldap-get-user/issues"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.15",
+    "nsp": "2.6.2",
+    "standard": "8.6.0",
+    "tap": "8.0.1"
+  },
+  "dependencies": {
+    "bluebird": "3.4.6",
+    "ldapjs": "1.0.1"
+  }
+}
