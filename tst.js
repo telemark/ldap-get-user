@@ -8,9 +8,9 @@ options.user = 'engj'
 
 getLdapUser(options).then((data) => {
   console.log(data)
-  process.exit()
+  process.exit(0)
 }).catch((err) => {
   console.error(err)
-  process.exit()
+  process.exit(0)
 })
 
