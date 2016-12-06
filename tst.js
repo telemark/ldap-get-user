@@ -3,7 +3,7 @@
 const config = require('./config')
 const getLdapUser = require('./lib/getLdapUser')
 
-const options = config.ldap
+let options = config.ldap
 options.user = 'engj'
 
 getLdapUser(options).then((data) => {
