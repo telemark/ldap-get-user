@@ -42,3 +42,6 @@ getLdapUser(options, (err, data) => {
   }
 })
 ```
+
+## License
+[MIT](LICENSE)
