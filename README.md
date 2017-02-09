@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/telemark/ldap-get-user.svg?branch=master)](https://travis-ci.org/telemark/ldap-get-user)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # ldap-get-user
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/ldap-get-user.svg)](https://greenkeeper.io/)
 Get user from LDAP returns object
 
 ## Set options
