@@ -1,6 +1,6 @@
 {
   "name": "ldap-get-user",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Get user from LDAP returns object",
   "license": "MIT",
   "author": {
