@@ -1,6 +1,6 @@
 {
   "name": "ldap-get-user",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Get user from LDAP returns object",
   "license": "MIT",
   "author": {
@@ -38,7 +38,7 @@
     "url": "http://github.com/maccyber/ldap-get-user/issues"
   },
   "devDependencies": {
-    "tap": "10.2.1"
+    "tap": "10.2.1",
     "coveralls": "2.12.0",
     "nsp": "2.6.3",
     "standard": "9.0.2"
