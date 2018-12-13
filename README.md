@@ -1,12 +1,13 @@
 [![Build Status](https://travis-ci.org/telemark/ldap-get-user.svg?branch=master)](https://travis-ci.org/telemark/ldap-get-user)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
 # ldap-get-user
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/ldap-get-user.svg)](https://greenkeeper.io/)
 Get user from LDAP returns object
 
 ## Set options
-```js
+
+```JavaScript
 const options = {
   user: 'riemann', // The user to get
   url: 'ldap://ldap.forumsys.com:389',
@@ -25,7 +26,8 @@ const options = {
 }
 ```
 ## Using promises
-```js
+
+```JavaScript
 getLdapUser(options).then((data) => {
   console.log(data)
   process.exit()
@@ -36,7 +38,8 @@ getLdapUser(options).then((data) => {
 ```
 
 ## Using callbacks
-```js
+
+```JavaScript
 getLdapUser(options, (err, data) => {
   if (err) {
     console.log(err)
@@ -48,4 +51,5 @@ getLdapUser(options, (err, data) => {
 ```
 
 ## License
+
 [MIT](LICENSE)
