@@ -38,7 +38,7 @@
     "url": "https://github.com/telemark/ldap-get-user/issues"
   },
   "devDependencies": {
-    "tap": "15.0.9",
+    "tap": "15.0.10",
     "coveralls": "3.1.1",
     "standard": "16.0.4"
   },
