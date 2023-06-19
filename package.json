@@ -40,7 +40,7 @@
   "devDependencies": {
     "tap": "16.3.0",
     "coveralls": "3.1.1",
-    "standard": "17.0.0"
+    "standard": "17.1.0"
   },
   "dependencies": {
     "ldapjs": "1.0.2"
